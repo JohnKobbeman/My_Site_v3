@@ -1,0 +1,311 @@
+/******************** TAG SELECTORS ********************/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a3e59;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+hr {
+  border: dotted;
+  border-bottom: none;
+  border-color: #1a3e59;
+  border-width: 10px;
+  margin: 40px auto;
+  width: 5%;
+}
+
+div {
+  margin: 0;
+}
+
+a {
+  color: #1a3e59;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EF8172;
+}
+
+/******************** CLASS SELECTORS ********************/
+
+/* Containers */
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* Sections */
+.color-section {
+  background-color: #66809F;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #1a3e59;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.link-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Header */
+
+.big-title {
+  color: #1a3e59;
+  font-family: 'Montez', cursive;
+  font-size: 4.4rem;
+  font-weight: lighter;
+  margin: 20px auto;
+  text-shadow: 0 1px 0 #EAF1F4;
+}
+.my-title {
+  font-weight: lighter;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 16%;
+  top: 40%;
+  width: 7.5%;
+}
+
+.top-cloud {
+  left: 16%;
+  position: absolute;
+  top: 20%;
+  width: 8%;
+}
+
+.mountains_silhouette {
+  width: 100%;
+}
+
+/* Intro */
+.avatar {
+  margin: 40px auto 60px auto;
+  width: 15%;
+}
+
+.profile {
+  line-height: 1.5rem;
+  margin: 0 auto 0 auto;
+}
+
+.oblique {
+  font-family: 'Montserrat', sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.quote {
+  background-color: #1a3e59;
+  border-radius: 45px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 20px auto;
+  padding: 30px 40px;
+  width: 60%;
+}
+
+/* Coding */
+.coder-img {
+  float: left;
+  margin: auto 30px auto 100px;
+  width: 12%;
+}
+
+.coding-title {
+  color: #EF8172;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  width: 60%;
+}
+
+.coding-bio {
+  line-height: 1.5rem;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  width: 60%;
+}
+
+/* Coding Stars */
+.coding-stars {
+  clear: both;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  width: 60%;
+}
+
+.github {
+  line-height: 1.5rem;
+  margin: 0 auto 0 356px;
+  text-align: left;
+  width: 60%;
+}
+
+/* Editing */
+.editing-title {
+  color: #EF8172;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  width: 60%;
+}
+
+.editor-img {
+  float: right;
+  margin: auto 150px auto 30px;
+  width: 12%;
+}
+
+.editing-bio {
+  line-height: 1.5rem;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  width: 60%;
+}
+
+/* Editing Stars */
+.editing-stars {
+  align-items: center;
+  clear: both;
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+
+.ctaCredits {
+  color: #EF8172;
+  margin: 0;
+}
+
+/* Contact Info */
+.hello {
+  margin: auto auto 80px;
+  width: 40%;
+}
+
+.contact-me {
+  margin: 40px auto 0 auto;
+  width: 40%;
+}
+
+.lets-talk {
+  line-height: 1.5rem;
+  margin: 40px auto 20px auto;
+}
+
+/* Footer */
+.container-footer {
+  padding: 60px 0 10px 0;
+}
+
+.footer-link {
+  color: #1a3e59;
+}
+
+.my-cities {
+  color: #EAF1F4;
+  font-weight: lighter;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  color: #EAF1F4;
+  font-size: .9rem;
+  font-weight: lighter;
+  padding: 15px 0 0;
+}
+
+.flaticon {
+  color: #EAF1F4;
+  font-size: .9rem;
+  font-weight: lighter;
+}
+
+/* Credit List */
+
+.credits-top-container {
+  margin: 0;
+  position: relative;
+}
+
+.credit-list {
+  line-height: 1.5rem;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  width: 80%;
+}
+
+.credits-rule {
+  margin: 40px auto;
+}
+
+
+
+
+
+/******************** ID SELECTORS  ********************/
+#navbar {
+  background-color: #ADBCCB;
+}
+
+#header .container-fluid {
+  background-color: #ADBCCB;
+  padding: 3% 0 0;
+  text-align: left;
+}
+
+#bio {
+  position: relative;
+}
+
+#features {
+  position: relative;
+}
+
+#skills {
+  position: relative;
+}
+
+#coding {
+  padding: 0 100px;
+}
+
+#editing {
+  padding: 0 100px 20px 100px;
+}
